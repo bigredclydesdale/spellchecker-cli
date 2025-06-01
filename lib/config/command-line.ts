@@ -13,6 +13,7 @@ export const supportedLanguages = [
   'en-GB',
   'en-US',
   'en-ZA',
+  'fr',
   'vi',
 ];
 
