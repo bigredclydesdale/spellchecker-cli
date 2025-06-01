@@ -3,6 +3,7 @@ import dictionaryEnAu from 'dictionary-en-au';
 import dictionaryEnCa from 'dictionary-en-ca';
 import dictionaryEnGb from 'dictionary-en-gb';
 import dictionaryEnZa from 'dictionary-en-za';
+import dictionaryFr from 'dictionary-fr';
 import dictionaryVi from 'dictionary-vi';
 import fs from 'fs-extra';
 import assign from 'lodash/assign.js';
@@ -102,6 +103,8 @@ function getDictionary(language: string) {
       return dictionaryEn;
     case 'en-ZA':
       return dictionaryEnZa;
+    case 'fr':
+      return dictionaryFr;
     case 'vi':
       return dictionaryVi;
     default:
